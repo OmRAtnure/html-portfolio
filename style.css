@@ -1,0 +1,80 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background-color :#402E7A;
+    text-align: center;
+    margin:0px;
+    padding: 0%;
+    height:80px;
+}
+body{
+    background-color: #4b70f5;
+}
+h1 ,h2 {
+    color:#ffa600 ;
+    
+}
+.footer{
+    background-color: #3DC2EC;
+    height: 80px;
+    width: 100%;
+    position: fixed; 
+    margin-top: 10px;
+    bottom:0!important;
+}
+.links{
+    height: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+/* about and contact */
+footer a{
+    color: white;
+    font-size:larger;
+}
+.projectimage{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;;
+}
+#all{
+    padding-top: 30px;
+    display: flex;
+    gap: 0px; 
+    flex-wrap: wrap;
+}
+.project{
+padding: 10px 0;
+ width: 250px;
+ text-align: center;
+ flex-basis: 33%;
+}
+
+.title {
+    font-size: 25px;
+    color: white;
+}
+#all>div{
+    height: 280px;
+}  
+@media(max-width :800px) {
+    .project {
+        padding: 10px 0;
+        width: 250px;
+        text-align: center;
+        flex-basis: 47% ;
+    }
+}
+
+@media(max-width :550px) {
+    .project {
+        padding: 10px 0;
+        width: 250px;
+        text-align: center;
+        flex-basis: 100% ;
+    }
+}
